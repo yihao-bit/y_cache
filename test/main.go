@@ -2,13 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
-	h := test()
-	fmt.Println(h)
+type h struct {
+	a int
 }
 
-func test() (res int) {
-	a := 1
-	defer func() { a++; fmt.Println(res) }()
-	return a
+func main() {
+	a := (*h)(nil)
+	a = &h{}
+	fmt.Println(a.a)
 }
