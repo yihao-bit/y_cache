@@ -1,2 +1,7 @@
 ./test
-./.idea
+/.idea/*
+/.idea/.gitignore
+/.idea/git_toolbox_prj.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/y_cache.iml
