@@ -1,8 +1,8 @@
-package y_cache
+package src
 
 import (
 	"sync"
-	"y_cache/lru"
+	"y_cache/src/lru"
 )
 
 type cache struct {
